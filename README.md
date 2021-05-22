@@ -69,7 +69,7 @@ npm run start
 
 ## Running the tests ⚙️
 
-Tanto en el back como en front, ejecutar el comando:
+Both in the back and in the front
 
 ```
 npm run test
@@ -95,7 +95,6 @@ We can see our different docker in the console and working by port: 80 (React), 
 
 ## Built with 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * [React JS](https://es.reactjs.org/) - Library front-end 
 * [Nest JS](https://nestjs.com/) - Framework back-end Node JS

@@ -3,9 +3,11 @@ services:
   ui:
     build: ./client-app
     ports:
-      - "80:3000"
+      - "80:80"
     links:
       - api
+    environment:
+      NODE_ENV: production  
     networks:
       - webappnetwork
   api:
