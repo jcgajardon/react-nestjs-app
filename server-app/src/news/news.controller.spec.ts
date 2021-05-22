@@ -12,7 +12,7 @@ describe('NewsController', () => {
   };
 
   const mockNewsService = {
-    getNews: jest.fn(),
+    findAll: jest.fn(),
     deleteNew: jest.fn(),
   };
   beforeEach(async () => {
@@ -31,8 +31,8 @@ describe('NewsController', () => {
   describe('News', () => {
     it('should return an array of news', async () => {
       const result = [];
-      jest.spyOn(service, 'getNews').mockImplementation(async () => result);
-      expect(await service.getNews()).toBe(result);
+      jest.spyOn(service, 'findAll').mockImplementation(async () => result);
+      expect(await service.findAll()).toBe(result);
     });
   });
 });
