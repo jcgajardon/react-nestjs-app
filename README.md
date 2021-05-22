@@ -1,7 +1,13 @@
 # React and Nest App Dockerized
 
 
-Web application developed to show news about node js, for this an api is consumed through the backend developed with Nest JS. On the other hand, we have the front-end application, in charge of consuming the API developed with React JS
+Web application developed to show news about node js, for this an api is consumed through the backend developed with Nest JS. On the other hand, we have the front-end application, in charge of consuming the API developed with React JS.
+
+# Explanation of operation
+
+
+When executing the back-end for the first time, it performs a primary insertion of the data with the url of the news-node service, then every 1 hour, it performs a procedure to check if there is new news in the service mentioned above, in order to do so. insert new records into our mongodb database. The front-end is responsible for consuming the methods provided by the back to list the news and eliminate them from the database. In this way, the news is sent to appear again.
+
 
 ## Starting 🚀
 
