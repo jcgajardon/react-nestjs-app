@@ -1,0 +1,28 @@
+.item {
+  padding: 15px;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px #ccc;
+}
+
+.item:hover {
+  background-color: #fafafa;
+}
+
+hr {
+  width: 95%;
+}
+
+.icon {
+  font-size: 25px;
+}
+
+.title {
+  color: #333;
+  font-size: 13pt;
+}
+
+.author {
+  color: #999;
+  margin-left: 10px;
+}

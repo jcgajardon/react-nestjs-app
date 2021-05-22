@@ -1,0 +1,14 @@
+.container-header {
+  padding: 30px;
+  background-color: black;
+  height: 300px;
+  width: 100%;
+}
+h1 {
+  color: white;
+  font-size: 60px;
+}
+
+h3 {
+  color: white;
+}
